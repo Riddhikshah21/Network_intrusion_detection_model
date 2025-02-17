@@ -1,0 +1,12 @@
+data:
+  train_path: 'data/KDDTrain+.txt'
+  test_path: 'data/KDDTest+.txt'
+
+model:
+  type: 'random_forest'
+  n_estimators: 100
+  random_state: 42
+
+detection:
+  interface: 'eth0'
+  packet_count: 1000
