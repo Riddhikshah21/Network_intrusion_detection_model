@@ -1,6 +1,6 @@
 data:
-  train_path: 'data/KDDTrain+.txt'
-  test_path: 'data/KDDTest+.txt'
+  train_path: 'data/KDDTrain+.arff'
+  test_path: 'data/KDDTest+.arff'
 
 model:
   type: 'random_forest'

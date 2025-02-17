@@ -56,4 +56,3 @@ def load_and_preprocess_data(train_path, test_path):
     X_train, X_test, y_train, y_test = train_test_split(X_preprocessed, y_binary, test_size=0.2, random_state=42)
 
     return X_train, X_test, y_train, y_test, preprocessing_pipeline
-
