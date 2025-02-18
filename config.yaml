@@ -8,5 +8,5 @@ model:
   random_state: 42
 
 detection:
-  interface: 'eth0'
+  interface: 'en0'
   packet_count: 1000

@@ -29,8 +29,9 @@ def load_and_preprocess_data(train_path, test_path):
 
     # Identify categorical and numerical columns
     categorical_columns = X.select_dtypes(include=['object']).columns
+    print(categorical_columns)
     numerical_columns = X.select_dtypes(include=['float64', 'int64']).columns
-
+    print(numerical_columns)
     # Create preprocessing steps
     categorical_transformer = OneHotEncoder(handle_unknown='ignore')
     numerical_transformer = StandardScaler()

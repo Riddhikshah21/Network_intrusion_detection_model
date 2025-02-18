@@ -27,13 +27,13 @@ def main():
     print(metrics['confusion_matrix'])
 
     # Start real-time detection
-    print("Starting real-time detection...")
-    start_detection(
-        model, 
-        scaler,
-        interface=config['detection']['interface'],
-        count=config['detection']['packet_count']
-    )
+    # print("Starting real-time detection...")
+    # start_detection(
+    #     model, 
+    #     scaler,
+    #     interface=config['detection']['interface'],
+    #     count=config['detection']['packet_count']
+    # )
 
 if __name__ == "__main__":
     main()
