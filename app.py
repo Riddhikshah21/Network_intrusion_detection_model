@@ -26,6 +26,7 @@ def main():
     print("Confusion Matrix:")
     print(metrics['confusion_matrix'])
 
+
     # Start real-time detection
     # print("Starting real-time detection...")
     # start_detection(
