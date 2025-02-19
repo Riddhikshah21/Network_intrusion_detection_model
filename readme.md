@@ -1,17 +1,17 @@
-Network Intrusion Detection System Using Machine Learning
+**Network Intrusion Detection System Using Machine Learning**
 
 This project implements a Network Intrusion Detection System (NIDS) leveraging machine learning algorithms to identify and prevent unauthorized activities within a network. By analyzing network traffic data, the system distinguishes between normal and malicious behavior, enhancing cybersecurity defenses.
 
-Installation
+*Installation*
 
-Clone the Repository:
+1. Clone the Repository:
 git clone https://github.com/Riddhikshah21/Network_intrusion_detection_model.git
 
-Create a Virtual Environment:
+2. Create a Virtual Environment:
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
-Install Dependencies:
+3. Install Dependencies:
 pip install -r requirements.txt
 
 Dataset used: The system has been tested with the following dataset
